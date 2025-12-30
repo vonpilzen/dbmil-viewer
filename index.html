@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Base de Datos CMANO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Visor de Base de Datos CMANO</h1>
+        <p>Busca y filtra a través de la base de datos de unidades.</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="country-search" placeholder="Buscar por País...">
+            <input type="text" id="type-search" placeholder="Buscar por Tipo...">
+            <input type="text" id="model-search" placeholder="Buscar por Modelo/Nombre...">
+            <button id="search-button">Buscar</button>
+            <button id="reset-button">Limpiar</button>
+        </div>
+
+        <div id="loading" class="loading-spinner" style="display: none;"></div>
+
+        <div id="results-container">
+            <!-- Los resultados de la búsqueda se insertarán aquí -->
+        </div>
+
+        <div id="no-results" style="display: none;">
+            <p>No se encontraron resultados para los criterios de búsqueda.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrollado como parte de un proyecto de IA.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
