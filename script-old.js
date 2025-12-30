@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURACIÓN ---
-    const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiL3VatqWa2CxufA4Uwao6USiCysIDOE7pCH_MK8X-0HgB_aRKEFiYtiqkja0Ay8C0aVCffKyRYtO_/pub?output=csv';
+    const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTra4sQ8-xdHS_3CLItreDQT9IQfvzzugCEFg0WuuWk78fn_SVdQ5geFKKWnKlIkMUvwNPJzRNAkUGU/pub?output=csv';
 
     // --- ELEMENTOS DEL DOM ---
     const searchButton = document.getElementById('search-button');
